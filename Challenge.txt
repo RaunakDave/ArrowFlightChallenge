@@ -1,0 +1,18 @@
+Overview of Challenge 
+Show you can access and manipulate Parquet and Arrow files from Golang. 
+You will learn the power and limitations of Apache Arrow 
+You will learn when to use Parquet and Arrow 
+
+While we are proposing a Challenge the developer can create their own requirements. The simplest way is to prove that you can use Apache Arrow Flight with Golang. 
+Apache Arrow Flight deals with the transmission of fragments of Apache Arrow data over gRPC 
+
+One Challenge 
+Write a gRPC server to read and write Apache Arrow and Parquet files
+Your Arrow file is as simple as a an invoice_line_item table that contains the following fields 
+    date: Timestamp
+    account: Integer → a account identifier 
+    product: Integer → a product identifier 
+    quantity: Float → how many units of the product is sold to an account 
+    price: Float → what is the total price for the products sold to the account 
+You will receive a invoice line items in batch format via Parquet
+You will have clients that get statistics on the Arrow file. The idea is not any super complicated computation. We just want to see how you can have many users in scale read arrow files. 
