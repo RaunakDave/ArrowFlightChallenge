@@ -1,4 +1,4 @@
-module gitlab.com/Perform/LiquidResearch/GoArrowFlightServices/goarrowflightservices/arrowFlightServerGo
+module github.com/RaunakDave/ArrowFlightChallenge/arrowFlightServerGo
 
 go 1.16
 
