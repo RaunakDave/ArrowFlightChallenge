@@ -1,4 +1,4 @@
-module gitlab.com/Perform/LiquidResearch/GoArrowFlightServices/goarrowflightservices/parquetDataGenerator
+module github.com/RaunakDave/ArrowFlightChallenge/parquetDataGenerator
 
 go 1.16
 
