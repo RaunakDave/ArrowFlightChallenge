@@ -26,7 +26,7 @@ func main() {
 	defer conn.Close()
 	descr := &flight.FlightDescriptor{
 		Type: flight.FlightDescriptor_PATH,
-		Path: []string{"test_path"},
+		Path: []string{"test"},
 	}
 
 	i := 0
